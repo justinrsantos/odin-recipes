@@ -1,5 +1,9 @@
 /* styles css */
 
+html{
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
 }
@@ -55,4 +59,15 @@ h1 {
   border-color: #e77600;
   box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
   outline: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
